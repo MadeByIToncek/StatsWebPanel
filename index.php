@@ -49,7 +49,7 @@
 				$query = $db->query("SELECT * FROM $set[table] ORDER BY $set[sort] DESC LIMIT 0,".$set["table_limit"], PDO::FETCH_ASSOC);
 				if ( $query->rowCount() ){
 			     	foreach( $query as $row ){
-						$head = ($set["head"] == "1") ? '<img src="https://minotar.net/avatar/'.$row["id"].'/10" class="img-circle">' : null ;
+						$head = ($set["head"] == "1") ? '<img src="https://minotar.net/avatar/'.$row["id"].'/30" class="img">' : null ;
 						echo "<tr>";
 						echo "<td>".$head." ".$row["id"]."</td>";
                         echo "<td>".$row["kill"]."</td>";

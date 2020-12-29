@@ -5,8 +5,8 @@ $set = array(
 	'mob_kill' => '0' /* 1 = Mob kill [ON] || 0 = Mob kill [OFF] */,
 	'table_limit' => '1000' /* Table line limit */,
 	'head' => '1', /* 1 = Player Head [ON] || 0 = Player Head [OFF] */
-    'table' => 'uhc_stats',
-    'sort' => 'win',
+    'table' => 'uhc_stats', /* table, where does UHCstats store data */
+    'sort' => 'win', /* sort by this column */
 	'mysql' => array(
 		'host' => 'localhost',
 		'username' => 'root',
